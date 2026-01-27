@@ -1,0 +1,23 @@
+#Las variables en R son el objeto más sencillo.
+a <- 3
+
+#Con la función class() podemos comprobar el tipo de la variable.
+class(a)    #[1] "numeric"
+
+#Con la función length() podemos ver la longitud de la variable.
+length(a)   #[1] 1
+
+#Cadenas de caracteres.
+nombre <- "Pepe"
+
+#Fecha como una cadena de caracteres.
+fecha <- "2025-06-19"
+
+#Fecha como un tipo fecha.
+fecha <- as.Date(fecha)
+
+#Las operaciones son sobre días.
+print(fecha-365)
+
+#Vectores
+vector <- c(1, 2, 3, 4, 5)
